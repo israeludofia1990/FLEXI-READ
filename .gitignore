@@ -1,0 +1,74 @@
+# =============================
+# Node.js / TypeScript Projects
+# =============================
+node_modules/
+dist/
+build/
+coverage/
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# =============================
+# Next.js / React Frontend
+# =============================
+.next/
+out/
+.cache/
+.vercel/
+*.log
+
+# =============================
+# Editor and System Files
+# =============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# =============================
+# OS & Miscellaneous
+# =============================
+*.tmp
+*.temp
+*.bak
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# =============================
+# Tests & Coverage
+# =============================
+coverage/
+test-results/
+jest-cache/
+jest-stare/
+
+# =============================
+# Shared Package Artifacts
+# =============================
+book-platform-shared/dist/
+book-platform-shared/node_modules/
+
+# =============================
+# Docker / Deployment
+# =============================
+docker-compose.override.yml
+*.pem
+*.key
+*.crt
+*.cert
+*.pfx
+*.pub
